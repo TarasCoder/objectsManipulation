@@ -1,0 +1,8 @@
+.wrapper{
+  border: 1px solid black;
+  display: block;
+}
+.disp {
+  border: 1px solid black; 
+  display: inline;
+}
