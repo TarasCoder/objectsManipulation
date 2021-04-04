@@ -1,18 +1,39 @@
 <html>
 
 <head>
-   <link rel="stylesheet" href="index.css">
+   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-   <button>Add item</button>
-   <button class="getItemsBtn">Get all items</button>
-   <div class="wrapper">
+<div class="wrapper">
+   <div class="container">
+        <div id="data">
+               <input type="number" id="id" placeholder="Enter ID:">
+               <button type="text" id="image">Upload image:</button>
+               <input type="text" id="name" placeholder="Enter name:">
+               <input type="number" id="amount" placeholder="Enter amount:">
+               <input type="number" id="weight" placeholder="Enter weight:">
+               <input type="text" id="comments" placeholder="Enter comments:">
+            <button class="btnAdd">Add Product</button>
+            <button class="btnShow">Show ALL</button>
+        </div>
+        <div id="presenter">
 
-   </div>
+        </div>
+        <!-- <table id="table"> -->
+            <!-- <tr>
+                <th>Name</th>
+                <th>Amount</th>
+                <th>Details</th>
+            </tr> -->
+        <!-- </table> -->
+ 
+    </div>
+</div>
+
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-   <script src="index.pack.js"></script>
+   <script src="app.js"></script>
 </body>
 
 </html>
